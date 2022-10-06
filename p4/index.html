@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Tic-Tac-Toe Game</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="tictactoeicon.png" rel="icon">
+  <link href="tictactoeicon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+    
+
+  <!-- =======================================================
+  * Template Name: KnightOne - v2.1.0
+  * Template URL: https://bootstrapmade.com/knight-simple-one-page-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container-fluid">
+
+      <div class="row justify-content-center">
+        <div class="col-xl-9 d-flex align-items-center justify-content-between">
+          <h1 class="logo"><a href="index.html">Tic-Tac-Toe</a></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+           <!-- <a href="index.html" class="logo"><img src="tttbg.png" alt="" class="img-fluid"></a>-->
+
+          <nav class="nav-menu d-none d-lg-block">
+            <ul>
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="#about">How to Play</a></li>
+              <li><a href="https://lamp.cse.fau.edu/~ssoulard2018/index.html">Project Hub</a>
+
+            </ul>
+          </nav><!-- .nav-menu -->
+
+          <a href="#playtime" class="get-started-btn scrollto">Start Playing >></a>
+        </div>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-xl-8">
+          <h1>Tic-Tac-Toe</h1>
+          <h2>Play the Classic Tic-Tac-Toe game - a battle between two people!</h2>
+          <a href="#about" class="get-started-btn scrollto">Rules >></a>
+            
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>How to Play</h2>
+          <p>Begin by choosing who will who will be Player X and who will be Player O. Player X will start first. Next, take turns clicking on a 3x3 grid until someone gets three X's or three O's in a row, or ultimately filling the whole board.</p>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6">
+            <p>
+              Three possible outcomes each game:
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i>Three X's in a row (diagonally, horizontally, or vertically) - Plaer X wins!</li>
+              <li><i class="ri-check-double-line"></i>Three O's in a row (diagonally, horizontally, or vertically) - Player O wins!</li>
+              <li><i class="ri-check-double-line"></i>If neither can get three of a kind in a row and the nine boxes are filled - The game results in a Tie!</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              What you'll need:
+            </p>
+              <ul>
+              <li><i class="ri-check-double-line"></i>An opponent</li>
+              <li><i class="ri-check-double-line"></i>Desire to win</li>
+              <li><i class="ri-check-double-line"></i>You!</li><br>
+            </ul>
+            <a href="#playtime" class="btn-learn-more scrollto">Start Game >></a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 id="playtime">Play time!</h2>
+            <h5>May the odds be ever in your favor, good luck and have fun!</h5>
+        </div>
+          <div style="padding-bottom:15px"> 
+        <input type="button" value="Play Again >>" id="playAgain" class="get-started-btn" >  
+        </div>
+        <div id="tictactoe" style="justify-content: center"></div>
+          
+        
+        </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3>Project Hub</h3>
+            <p>After you've played enough games of tic-tac-toe, feel free to head back to the Project Hub to look at the other projects that have been completed</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="https://lamp.cse.fau.edu/~ssoulard2018/index.html">Project Hub</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+        <div class="copyright">Copyright &copy; 2021 <strong>Shannon Soulard</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/knight-simple-one-page-bootstrap-template/ -->
+        Template courtsey of <a href="https://bootstrapmade.com/" target="_blank">bootstrapmade.com</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
