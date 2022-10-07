@@ -5,7 +5,7 @@ This Portfolio includes 6 mini projects I was assigned to work on throughout the
 
 * project portal - encompasses all projects
 
-![image](https://user-images.githubusercontent.com/77816764/194439838-8669d4a5-1bab-47ff-8106-4509ce78a631.png)
+![image](https://user-images.githubusercontent.com/77816764/194444310-d5f71da8-97ef-41d9-bfea-3f73484ae689.png)
 
 * p1 - a simple resume with basic understanding of HTML and CSS
 
